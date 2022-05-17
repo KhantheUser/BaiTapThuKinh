@@ -1,0 +1,10 @@
+.carousel {
+  background-image: url("/public/img/BG.png");
+  height: 800px;
+  background-repeat: no-repeat;
+  /* background-size: x y */
+  /* background-size: 300px; */
+  /* background-position: x y ; */
+  background-size: cover;
+  background-position: center;
+}

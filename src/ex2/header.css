@@ -1,0 +1,41 @@
+.header {
+  /* mã màu HEX: #rrggbb 0 => f */
+  background-color: #f1e1db;
+  padding: 10px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
+  /* padding: 20px; */
+  /* padding: 10px 20px 30px 40px; */
+  /* padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px; */
+}
+
+.header .logo {
+  /* inline ko làm dc: width height margin top bottom */
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.header .logo img {
+  width: 70px;
+}
+
+.header .navbar a {
+  /* text-decoration: underline; */
+  /* text-decoration: overline; */
+  /* text-decoration: line-through; */
+  text-decoration: none;
+  color: #000000;
+  margin-right: 20px;
+  /* background-color: green; */
+}
+
+.header .navbar a:hover {
+  color: #ff0000;
+}
